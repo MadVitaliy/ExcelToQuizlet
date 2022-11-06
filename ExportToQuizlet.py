@@ -4,7 +4,7 @@ def GetValue(param_string):
 
 def GetAutorisationCredits():
   try:
-    with open('./LoginPassword.txt') as f:
+    with open('../LoginPassword.txt') as f:
       lines = f.readlines()
       for line in lines:
         line = line.strip()
