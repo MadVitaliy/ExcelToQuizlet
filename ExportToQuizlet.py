@@ -124,7 +124,6 @@ def FillStudySet(dictionary):
     driver.close()
   
   
-words_to_add = dict({'Beauty': 'the thing only Liia has', 'Love': 'Liia', 'Hugs, cuddles, talks, sex, ect': 'what I want with Liia'})
-
-FillStudySet(words_to_add) 
+#words_to_add = dict({'Beauty': 'the thing only Liia has', 'Love': 'Liia', 'Hugs, cuddles, talks, sex, ect': 'what I want with Liia'})
+#FillStudySet(words_to_add) 
   

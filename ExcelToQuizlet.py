@@ -1,11 +1,13 @@
 
 from ExportToQuizlet import *
-
+from ImportFromExel import *
 
 def main():
-  quizlet_login, quizlet_pasword = GetAutorisationCredits()  
-  print(f"login is '{quizlet_login}'")
-  print(f"password is '{quizlet_pasword}'")
+  path = './test_data/words.xlsx'
+  titles, data = ReadExcel(path)
+  print(titles)
+  print(data)
+  
       
 if __name__ == '__main__':
   main()
